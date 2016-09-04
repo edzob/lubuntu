@@ -50,5 +50,11 @@ sudo apt-get install kismet;
   sudo apt-get install ubuntu-make;
   sudo umake ide arduino;
 
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
 
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get update
+sudo apt-get install atom
 
