@@ -7,6 +7,10 @@ sudo apt-get update;
 sudo apt-get install opera-stable;
 sudo apt-get install chromium-codecs-ffmpeg-extra;
 
+## from opera install messages
+## binutils-doc chromium-browser ttf-mscorefonts-installer ttf-dejavu ttf-xfree86-nonfree
+
+
 ## Firefox
 ### Already part of ubuntu default repro
 sudo apt-get install firefox;
@@ -29,7 +33,7 @@ sudo apt-get install chromium-browser;
 ### Python
   sudo apt-get install python3-dev python-setuptools;
 ### editors
-sudo apt-get install mc nano pico vim sed;
+sudo apt-get install mc nano vim sed;
 ## utils
 sudo apt-get install sysstat iotop htop ethtool nmap dnsutils traceroute zip unzip;
 
@@ -41,10 +45,10 @@ sudo apt-get install kismet;
 
 ## Arduino
 ### https://www.arduino.cc/download_handler.php?f=/arduino-1.6.11-linux32.tar.xz
-  sudo apt-add-repository ppa:ubuntu-desktop/ubuntu-make
-  sudo apt-get update
-  sudo apt-get install ubuntu-make
-  sudo umake ide arduino
+  sudo apt-add-repository ppa:ubuntu-desktop/ubuntu-make;
+  sudo apt-get update;
+  sudo apt-get install ubuntu-make;
+  sudo umake ide arduino;
 
 
 
