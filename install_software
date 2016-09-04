@@ -1,0 +1,50 @@
+# Browsers
+
+## Opera
+sudo add-apt-repository 'deb https://deb.opera.com/opera-stable/ stable non-free';
+wget -qO- https://deb.opera.com/archive.key | sudo apt-key add -;
+sudo apt-get update;
+sudo apt-get install opera-stable;
+sudo apt-get install chromium-codecs-ffmpeg-extra;
+
+## Firefox
+### Already part of ubuntu default repro
+sudo apt-get install firefox;
+
+## Chrome
+sudo apt-get install chromium-browser;
+
+
+# Development
+## Build
+### Generic build toold
+	sudo apt-get install apt-utils;
+	sudo apt-get install dialog;
+	sudo apt-get install bash-completion make build-essential debconf-utils ;
+### GIT
+  sudo apt-get install git git-core;
+### download
+  sudo apt-get install curl wget rsync;
+## code
+### Python
+  sudo apt-get install python3-dev python-setuptools;
+### editors
+sudo apt-get install mc nano pico vim sed;
+## utils
+sudo apt-get install sysstat iotop htop ethtool nmap dnsutils traceroute zip unzip;
+
+## tcpip
+sudo apt-get install wireshark;
+sudo dpkg-reconfigure wireshark-common;
+sudo adduser $USER wireshark;
+sudo apt-get install kismet;
+
+## Arduino
+### https://www.arduino.cc/download_handler.php?f=/arduino-1.6.11-linux32.tar.xz
+  sudo apt-add-repository ppa:ubuntu-desktop/ubuntu-make
+  sudo apt-get update
+  sudo apt-get install ubuntu-make
+  sudo umake ide arduino
+
+
+
